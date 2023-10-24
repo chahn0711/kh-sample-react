@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import { Fragment } from "react";
 import './App.css';
+import Section from "./Section";
+import MyComponent from "./MyComponent";
 
+
+// function App() { // 부모
+//   const element = < WelcomeProp name="곰돌이사육사" /> // 컴퍼런트 호출 방법<>
+//   return ( // 필히 하나의 태그로 묶어주어야한다. <>태그 쓰거나 <Fragment>태그 
+//     <>
+//       <div>{element}</div>
+//     </>
+//   );
+// }
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Section title="스포츠" content="This is the content for section 1." />      
+      <Section title="정치" content="This is the content for section 2." />       */}
+      <MyComponent name="곰돌이사육사" age={30}/>
+    </>
   );
 }
 
-export default App;
+export default App; // 앱을 이동 할 때 나가줘야함 必
