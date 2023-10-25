@@ -10,7 +10,9 @@ const Say = () => {
     <>
       <button onClick={onClickEnter}>입장</button>
       <button onClick={onClickLeave}>퇴장</button>
+      {/* <button onClick={onClickEnter()}>입장</button> 가로를 안넣는 이유는 넣으면 바로 호출되기 때문 */}
       <h1 style={{ color: val }}>{message}</h1>
+      {/* <button style={{ color: "red" }} onClick={() => setColor("red")}> 익명의 함수이기 때문에 ()가 있어서 함수가 바로 불러 지지 않는다? */}
       <button style={{ color: "red" }} onClick={() => setColor("red")}>
         빨간색
       </button>
