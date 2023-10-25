@@ -3,6 +3,13 @@ import "./App.css";
 import Section from "./Section";
 import MyComponent from "./MyComponent";
 import Say from "./Say";
+import Clock from "./Clock";
+import EventPractice from "./onChange";
+import EventHandler from "./EventHandler";
+import FruitSelect from "./FruitSelect";
+import RadioButton from "./RadioButton";
+import Table from "./Table";
+import TableMap from "./TableMap";
 
 // function App() { // 부모
 //   const element = < WelcomeProp name="곰돌이사육사" /> // 컴퍼런트 호출 방법<>
@@ -20,7 +27,14 @@ function App() {
       {/* <MyComponent name="곰돌이사육사" age={30}>
         안녕하세요^^
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      <TableMap />
     </>
   );
 }
