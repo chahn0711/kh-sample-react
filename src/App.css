@@ -1,6 +1,24 @@
 /* css 적용하는 법 */
-.App { 
+.App {
   text-align: center;
   color: darkgreen;
   font-weight: bold;
+}
+
+h1 {
+  color: royalblue;
+}
+.title-name {
+  color: royalblue;
+  font-size: 2em;
+  background-color: orange;
+}
+
+.del-guide {
+  color: red;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
 }

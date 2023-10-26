@@ -11,6 +11,11 @@ import RadioButton from "./RadioButton";
 import Table from "./Table";
 import TableMap from "./TableMap";
 import CreateRef from "./UseRef";
+import UserList from "./UserList";
+import TodoList from "./TodoList";
+import Counter from "./Hooks1";
+import NameCard from "./NameCard";
+import MemberInfo from "./Hooks2";
 
 // function App() { // 부모
 //   const element = < WelcomeProp name="곰돌이사육사" /> // 컴퍼런트 호출 방법<>
@@ -36,7 +41,12 @@ function App() {
       {/* <RadioButton /> */}
       {/* <Table /> */}
       {/* <TableMap /> */}
-      <CreateRef />
+      {/* <CreateRef /> */}
+      {/* <UserList /> */}
+      {/* <TodoList /> */}
+      {/* <Counter /> */}
+      {/* <NameCard /> */}
+      <MemberInfo />
     </>
   );
 }
