@@ -17,6 +17,7 @@ import Counter from "./Hooks1";
 import NameCard from "./NameCard";
 import MemberInfo from "./Hooks2";
 import Counter2 from "./Hooks3";
+import Average from "./Hooks4";
 
 // function App() { // 부모
 //   const element = < WelcomeProp name="곰돌이사육사" /> // 컴퍼런트 호출 방법<>
@@ -48,7 +49,8 @@ function App() {
       {/* <Counter /> */}
       {/* <NameCard /> */}
       {/* <MemberInfo /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Average />
     </>
   );
 }
